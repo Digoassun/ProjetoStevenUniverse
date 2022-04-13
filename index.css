@@ -1,0 +1,109 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button {
+    border: none;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+/* PAGINA */
+
+body{
+    background-image: url(./imgs/Bg_index.png) ;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    -webkit-text-stroke: 0.1px #f93c15;
+    font-family: 'Fredoka One', cursive;
+    width:100%;
+    color: #ffd232;
+    text-align: center;
+    font-size: 3em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.imglogo{
+    width: 25% ;
+    margin: 7em 0 7em 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.lang1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    border: solid black 1px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.533);
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 1.5em;
+    margin-right: 5em;
+    
+}
+
+.lang2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    border: solid black 1px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.533);
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 1.5em;
+
+}
+
+button{
+    background-color: transparent;
+    cursor: pointer;
+    width: 5em;
+    transition: all 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.flag{
+    width: 5em;
+}
+
+h2, h3{
+    color: red;
+    font-weight: 900;
+    }
+
+.engpt{
+    color: red;
+}
