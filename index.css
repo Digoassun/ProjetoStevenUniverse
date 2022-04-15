@@ -41,7 +41,7 @@ main{
 }
 
 .imglogo{
-    width: 25% ;
+    width: 20em ;
     margin: 7em 0 7em 0;
 }
 
@@ -106,4 +106,94 @@ h2, h3{
 
 .engpt{
     color: red;
+}
+
+@media(max-width:1500px){
+    h1{
+        font-size:4rem;
+    }
+
+    .imglogo{
+        margin: 5em 0 5em 0;
+    }
+}
+
+@media(max-width:1100px){
+    .container{
+        width: 80%;
+    }
+   
+    .lang1{
+        font-size: 1.2rem;
+    }
+
+    .lang2{
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width:700px){
+    h1{
+        font-size:2.9rem;
+    }
+
+    .imglogo{
+        width: 14em;
+    }
+
+    .container{
+        flex-direction: row;    
+        width: 95%;            
+    }
+
+    .lang1{
+        font-size: 1rem;
+        margin-right: 1em;
+    }
+
+    .lang2{
+        font-size: 1rem;
+    }
+
+    button{
+        width: 4.5em;
+    }
+
+    .flag{
+        width: 4.5em;
+    }
+}
+
+
+@media(max-width:500px){
+    h1{
+        font-size:2rem;
+    }
+    
+    .imglogo{
+        margin:3em 0 3em 0;
+        width: 15em;
+    }
+
+    .container{
+        flex-direction: row;    
+        width: 95%;            
+    }
+
+    .lang1{
+        font-size: 0.9rem;
+        margin-right: 1em;
+    }
+
+    .lang2{
+        font-size: 0.9rem;
+    }
+
+    button{
+        width: 4em;
+    }
+
+    .flag{
+        width: 4em;
+    }
 }
