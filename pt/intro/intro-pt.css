@@ -1,0 +1,99 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+button {
+    border: none;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+/* PAGINA */
+main{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Londrina Solid', cursive;    
+}
+.containerintro, .containergame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    border: solid black 1px;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 8em;
+    font-size: 2rem;
+    font-weight: 400;
+    /* -webkit-text-stroke: 1.5px black; */
+    color: rgb(10, 58, 160);
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0.700);
+    padding: 1em;
+    border-radius: 10px;
+    gap:20px;
+}
+.containerintro{
+    background-image: url(./img/bg-intro.jpeg) ;
+}
+
+.containergame{
+    background-image: url(./img/bg-door.jpeg);
+}
+
+button{
+    background-color: white;
+    color:rgb(10, 58, 160) ;
+    border: solid rgb(10, 58, 160) 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Londrina Solid', cursive; 
+    font-size: 2rem;
+    padding: 1em;
+    margin-top: 6em;
+}
+
+button:hover{
+    background-color:rgb(10, 58, 160) ;
+    color: white;
+}
+
+
+@media(max-width:1450px){
+    .containerintro, .containergame{
+        font-size:1.7rem;
+    }
+
+}
+
+@media(max-width:1050px){
+    .containerintro, .containergame{
+        font-size:1.2rem;
+    }
+
+}
+
+@media(max-width:500px){
+    .containerintro, .containergame{
+        font-size:1rem;
+    }
+
+}
