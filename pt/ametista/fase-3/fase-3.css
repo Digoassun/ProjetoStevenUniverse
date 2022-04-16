@@ -126,6 +126,10 @@ button:hover {
     button {
         font-size: 1.4rem;
     }
+
+    p{
+        text-align: center;
+    }
 }
 
 @media(max-width:500px) {
@@ -139,9 +143,9 @@ button:hover {
     }
 
     h2 {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
-
+    
     .options {
         font-size: 0.8rem;
     }
@@ -152,5 +156,9 @@ button:hover {
 
     img {
         width: 30%;
+    }
+    
+    p{
+        text-align: center;
     }
 }

@@ -34,12 +34,12 @@ section {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background: rgb(83, 79, 112);
-    background: linear-gradient(0deg, rgba(83, 79, 112, 1) 5%, rgba(196, 158, 219, 1) 75%, rgba(236, 225, 255, 1) 100%);
+    background: rgb(139,207,193);
+    background: linear-gradient(0deg, rgba(139,207,193,1) 38%, rgba(99,255,239,1) 50%, rgba(131,196,188,1) 63%);
     padding: 3em;
     gap: 3em;
     font-family: 'Londrina Solid', cursive;
-    color: #7c3e99;
+    color: #ffdf7c;
 }
 
 h1 {
@@ -89,7 +89,7 @@ button {
 
 button:hover {
     background-color: black;
-    color: #7c3e99;
+    color: #ffdf7c;
 }
 
 @media(max-width:1050px) {
@@ -152,5 +152,9 @@ button:hover {
 
     img {
         width: 30%;
+    }
+
+    p{
+        text-align: center;
     }
 }

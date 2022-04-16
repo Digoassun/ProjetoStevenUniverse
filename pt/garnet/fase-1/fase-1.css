@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/bg.png);
+    background-image: url(../img/bg.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -34,12 +34,12 @@ section {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background: rgb(83, 79, 112);
-    background: linear-gradient(0deg, rgba(83, 79, 112, 1) 5%, rgba(196, 158, 219, 1) 75%, rgba(236, 225, 255, 1) 100%);
+    background: rgb(0,2,41);
+    background: linear-gradient(0deg, rgba(0,2,41,1) 2%, rgba(203,48,129,1) 50%, rgba(225,1,98,1) 78%);
     padding: 3em;
     gap: 3em;
     font-family: 'Londrina Solid', cursive;
-    color: #7c3e99;
+    color: #000229;
 }
 
 h1 {
@@ -89,7 +89,7 @@ button {
 
 button:hover {
     background-color: black;
-    color: #7c3e99;
+    color: #e10162;
 }
 
 @media(max-width:1050px) {

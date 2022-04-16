@@ -153,4 +153,8 @@ button:hover {
     img {
         width: 30%;
     }
+
+    p{
+        text-align: center;
+    }
 }
