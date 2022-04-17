@@ -38,8 +38,7 @@ section {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background: rgb(83, 79, 112);
-    background: linear-gradient(0deg, rgba(83, 79, 112, 1) 5%, rgba(196, 158, 219, 1) 75%, rgba(236, 225, 255, 1) 100%);
+    background: rgba(255, 255, 255, 0.7);
     padding: 3em;
     gap: 3em;
     font-family: 'Londrina Solid', cursive;
@@ -88,13 +87,14 @@ button {
     background-color: transparent;
     padding: 0.8em;
     border-radius: 15px;
-    border: solid 2px black;
+    border: solid 2px #7c3e99;
     cursor: pointer;
+    color: #7c3e99;
 }
 
 button:hover {
-    background-color: black;
-    color: #7c3e99;
+    background-color: #7c3e99;
+    color: black;
 }
 
 @media(max-width:1050px) {

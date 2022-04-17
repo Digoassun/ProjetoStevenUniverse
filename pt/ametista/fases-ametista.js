@@ -2,7 +2,7 @@ function fase2() {
 
     var option = (prompt("Digite a opção pela letra").toLowerCase());
     if (option == 'a') {
-        alert('Ametista escolheu a arma certa, e corre para atacar a imagem!');
+        alert('Ametista pegou seu chicote, e correu para atacar a imagem!');
         location.assign("../fase-2/fase-2.html")
 
     } else if (option == 'b') {
@@ -43,7 +43,7 @@ function fase3() {
 function fim() {
     var option = (prompt("Digite a opção pela letra").toLowerCase());
     if (option == 'a') {
-        alert('Ametista e Steven se unem e conseguem lidar com os problemas internos dela, resultando no sumisso da imagem!');
+        alert('Tendo acreditado em Steven, Ametista consegue lidar com sua insegurança, resultando no sumiço da imagem!');
         location.assign("../../victory-pt.html")
 
     } else if (option == 'b') {
