@@ -5,3 +5,7 @@ function brGame() {
   function backIndex(){
     location.assign('../index.html')
 }
+
+function backChoice(){
+  location.assign('./choice/choice-pt.html')
+}

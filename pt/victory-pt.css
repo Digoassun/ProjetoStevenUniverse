@@ -25,7 +25,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10em;
+    gap: 7em;
 }
 
 h1{
@@ -51,12 +51,12 @@ button:hover{
     color:#f93c15 ;
 }
 
-@media(max-width:500px){
+@media(max-width:720px){
     h1{
-        font-size: 5rem;
+        font-size: 4.7rem;
     }
 
     button{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 }

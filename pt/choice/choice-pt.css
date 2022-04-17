@@ -94,12 +94,10 @@ h1{
 
 .grn{
     color: #cb3080;
-    /* -webkit-text-stroke: 1px black; */
 }
 
 .prl{
     color: #93ead9;
-    /* -webkit-text-stroke: 1px black; */
 }
 
 @media(max-width:800px){
@@ -123,7 +121,6 @@ h1{
 @media(max-width:500px){
     h1{
         font-size: 2rem;
-        /* text-align: center; */
     }
 
     .containerchoice{
