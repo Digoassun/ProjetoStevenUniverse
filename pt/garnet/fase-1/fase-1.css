@@ -40,14 +40,14 @@ section {
     border-radius: 20px;
     background: rgb(0,2,41);
     background: linear-gradient(0deg, rgba(0,2,41,1) 2%, rgba(203,48,129,1) 50%, rgba(225,1,98,1) 78%);
-    padding: 3em;
-    gap: 3em;
+    padding: 2.7em;
+    gap: 2.7em;
     font-family: 'Londrina Solid', cursive;
     color: #000229;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .question {
@@ -59,7 +59,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .position {
