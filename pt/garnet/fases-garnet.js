@@ -8,9 +8,12 @@ function fase2() {
             location.assign("../fase-2/fase-2.html")
             break;
         } else if (option == 'a' || option == 'b') {
+            if(contador>2){
+                location.assign("../../defeat-pt.html")
+            }else{
             alert('Opção errada!');
-            location.assign("../../defeat-pt.html")
             contador++;
+            }
 
         } else {
             alert("Digite apenas a, b ou c")
@@ -28,9 +31,12 @@ function fase3() {
             location.assign("../fase-3/fase-3.html")
             break;
         } else if (option == 'a' || option == 'c') {
+            if(contador>2){
+                location.assign("../../defeat-pt.html")
+            }else{
             alert('Opção errada!');
-            location.assign("../../defeat-pt.html")
             contador++;
+            }
 
         } else {
             alert("Digite apenas a, b ou c")
@@ -48,9 +54,12 @@ function fim() {
             location.assign("../../victory-pt.html")
             break;
         } else if (option == 'a' || option == 'b') {
+            if(contador>2){
+                location.assign("../../defeat-pt.html")
+            }else{
             alert('Opção errada!');
-            location.assign("../../defeat-pt.html")
             contador++;
+            }
 
         } else {
             alert("Digite apenas a, b ou c")
