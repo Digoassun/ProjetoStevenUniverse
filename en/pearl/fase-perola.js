@@ -1,6 +1,6 @@
 function fase2() {
     var contador = 0;
-    while (contador < 3) {
+    while (true) {
         var option = (prompt("Type option by the letter").toLowerCase());
 
         if (option == 'a') {
@@ -8,8 +8,9 @@ function fase2() {
             location.assign("../fase-2/fase-2.html")
             break;
         } else if (option == 'b' || option == 'c') {
-            if(contador>2){
+            if(contador>=2){
                 location.assign("../../defeat-en.html")
+                break;
             }else{
             alert('Wrong option!');
             contador++;
@@ -22,7 +23,7 @@ function fase2() {
 
 function fase3() {
     var contador = 0;
-    while (contador < 3) {
+    while (true) {
         var option = (prompt("Type option by the letter").toLowerCase());
 
         if (option == 'c') {
@@ -30,8 +31,9 @@ function fase3() {
             location.assign("../fase-3/fase-3.html")
             break;
         } else if (option == 'a' || option == 'b') {
-            if(contador>2){
+            if(contador>=2){
                 location.assign("../../defeat-en.html")
+                break;
             }else{
             alert('Wrong option!');
             contador++;
@@ -45,7 +47,7 @@ function fase3() {
 
 function fim() {
     var contador = 0;
-    while (contador < 3) {
+    while (true) {
         var option = (prompt("Type option by the letter").toLowerCase());
 
         if (option == 'b') {
@@ -53,8 +55,9 @@ function fim() {
             location.assign("../../victory-en.html")
             break;
         } else if (option == 'a' || option == 'c') {
-            if(contador>2){
+            if(contador>=2){
                 location.assign("../../defeat-en.html")
+                break;
             }else{
             alert('Wrong option!');
             contador++;

@@ -1,6 +1,6 @@
 function fase2() {
     var contador = 0;
-    while (contador <= 2) {
+    while (true) {
         var option = (prompt("Digite a opção pela letra").toLowerCase());
 
         if (option == 'a') {
@@ -9,12 +9,10 @@ function fase2() {
             break;
             
         } else if (option == 'b' || option == 'c') {
-            if(contador>2){
-                location.assign("../../defeat-pt.html")
-            }else{
-            alert('Opção errada!');
-            contador++;
-            }
+            
+            var qualquer =error("../../defeat-pt.html",contador)
+            if(qualquer) break;
+            contador++
             
         }else {
             alert("Digite apenas a, b ou c")
@@ -24,7 +22,7 @@ function fase2() {
 
 function fase3() {
     var contador = 0;
-    while (contador < 3) {
+    while (true) {
         var option = (prompt("Digite a opção pela letra").toLowerCase());
 
         if (option == 'b') {
@@ -32,8 +30,9 @@ function fase3() {
             location.assign("../fase-3/fase-3.html")
             break;
         } else if (option == 'a' || option == 'c') {
-            if(contador>2){
+            if(contador>=2){
                 location.assign("../../defeat-pt.html")
+                break;
             }else{
             alert('Opção errada!');
             contador++;
@@ -47,7 +46,7 @@ function fase3() {
 
 function fim() {
     var contador = 0;
-    while (contador < 3) {
+    while (true) {
         var option = (prompt("Digite a opção pela letra").toLowerCase());
 
         if (option == 'a') {
@@ -55,7 +54,7 @@ function fim() {
             location.assign("../../victory-pt.html")
             break;
         } else if (option == 'b' || option == 'c') {
-            if(contador>2){
+            if(contador>=2){
                 location.assign("../../defeat-pt.html")
             }else{
             alert('Opção errada!');
@@ -67,3 +66,15 @@ function fim() {
         }
     }
 }
+
+function error(pagina,contador){
+
+    if(contador>=2){
+        location.assign(pagina)
+        return true
+    }else{
+        alert('Opção errada!');
+        return false
+    }
+}
+

@@ -98,14 +98,36 @@ button:hover {
     color: black;
 }
 
+@media(max-width:1400px){
+    h1{
+        font-size:1.9rem;
+    }
+
+    section{
+        padding: 2.2em;
+        gap: 2.2em;
+    }
+
+    h2{
+        font-size: 1.3rem;
+    }
+
+    .options{
+        font-size: 1.3rem;
+    }
+
+    img{
+        width:17%;
+    }
+
+    button {
+        font-size: 1.3rem;
+    }
+}
 
 @media(max-width:800px) {
     h2 {
         font-size: 1.2rem;
-    }
-
-    .options {
-        font-size: 1.4rem;
     }
 
     button {
