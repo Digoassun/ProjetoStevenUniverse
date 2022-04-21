@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,38 +12,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap"
+        rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./imgs/icon.png">
 </head>
+
 <body>
-    <header>
-        <h1>Crystal Gems Journey</h1>
-    </header>
     <main>
+        <header>
+            <h1>Crystal Gems Journey</h1>
+        </header>
         <img class="imglogo" src="./imgs/logo.png" alt="steven universe logo">
         <section class="container">
-            <div class="lang1">    
+            <div class="lang1">
                 <h2>BEM-VINDO</h2>
-                <p>Esse é um jogo textual baseado no desenho Steven Universo! Nessa aventura você ajudará as Crystal Gems numa jornada pessoal!</p>
+                <p>Esse é um jogo textual baseado no desenho Steven Universo! Nessa aventura você ajudará as Crystal
+                    Gems numa jornada pessoal!</p>
                 <h3>Mas antes</h3>
                 <p>Escolha um idioma</p>
                 <p class="pt">Português</p>
-                <button onclick="brGame()">
+                <button onclick="game('pt')">
                     <img class="flag" src="./imgs/br.png" alt="bandeira do brasil">
                 </button>
             </div>
             <div lang="en" class="lang2">
                 <h2>WELCOME</h2>
-                <p>This is a text game based on the Steven Universe cartoon! In this adventure, you'll help the Crystal Gems on a personal journey!</p>
+                <p>This is a text game based on the Steven Universe cartoon! In this adventure, you'll help the Crystal
+                    Gems on a personal journey!</p>
                 <h3>But first</h3>
                 <p>Choose a Language</p>
                 <p class="eng">English</p>
-                <button onclick="enGame()">
+                <button onclick="game('en')">
                     <img class="flag" src="./imgs/eua.png" alt="bandeira dos estados unidos">
-                </button>           
+                </button>
             </div>
         </section>
+        <footer>
+            <a href="https://github.com/Digoassun" target="_blank"><img class ="link" src="imgs/github.png" alt=""></a>
+            <p>Todos os direitos reservados. Projeto para fins educacionais.<br>Projeto de Rodrigo Assunção</p>
+            <a href="https://www.linkedin.com/in/rodrigo-assun/" target="_blank"><img class ="link" src="imgs/linkedin.png" alt=""></a>
+        </footer>
     </main>
-    <script src="index.js"></script>
+    <script src="usable.js"></script>
 </body>
+
 </html>

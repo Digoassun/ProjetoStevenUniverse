@@ -8,7 +8,7 @@ function fase2() {
             location.assign("../fase-2/fase-2.html")
             break;
         } else if (option == 'b' || option == 'c') {
-            if(contador>=2){
+            if(contador>=1){
                 location.assign("../../defeat-pt.html")
                 break;
             }else{
@@ -32,7 +32,7 @@ function fase3() {
             location.assign("../fase-3/fase-3.html")
             break;
         } else if (option == 'a' || option == 'b') {
-            if(contador>=2){
+            if(contador>=1){
                 location.assign("../../defeat-pt.html")
                 break;
             }else{
@@ -56,7 +56,7 @@ function fim() {
             location.assign("../../victory-pt.html")
             break;
         } else if (option == 'a' || option == 'c') {
-            if(contador>=2){
+            if(contador>=1){
                 location.assign("../../defeat-pt.html")
                 break;
             }else{
