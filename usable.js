@@ -17,4 +17,3 @@ function startGame(idioma) {
 function charSelection(char) {
   location.assign(`../${char}/fase-1/fase-1.html`);
 }
-

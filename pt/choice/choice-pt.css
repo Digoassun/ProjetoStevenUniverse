@@ -1,9 +1,10 @@
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
+
 button {
     border: none;
 }
@@ -14,9 +15,9 @@ button:focus {
 }
 
 /* PAGINA */
-body{
+body {
     background-image: url(./imgs/bg-choice.png);
-    background-position:center center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -26,32 +27,33 @@ body{
     justify-content: center;
     font-family: 'Londrina Solid', cursive;
 }
-.containerchoice{
+
+.containerchoice {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    gap: 3em;   
+    gap: 3em;
     background-color: rgba(255, 255, 255, 0.700);
     padding: 5em;
     border-radius: 20px;
     width: 70%;
 }
 
-h1{
-    color:#2676a1;
+h1 {
+    color: #2676a1;
     font-size: 4rem;
     text-align: center;
 }
 
-.containercharacters{
+.containercharacters {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.characters{
+.characters {
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -65,80 +67,84 @@ h1{
 }
 
 
-.imgchoicea, .imgchoiceg, .imgchoicep{
+.imgchoicea,
+.imgchoiceg,
+.imgchoicep {
     width: 100%;
     border-radius: 50%;
     transition: all 0.5s;
 }
 
-.imgchoicea{
+.imgchoicea {
     background-color: #f9eaff;
 }
 
-.imgchoiceg{
+.imgchoiceg {
     background-color: #fdacee;
 }
 
-.imgchoicep{
+.imgchoicep {
     background-color: #ffd0ce;
 }
 
 
-.imgchoicea:hover, .imgchoiceg:hover, .imgchoicep:hover{
-  transform: scale(1.1);
+.imgchoicea:hover,
+.imgchoiceg:hover,
+.imgchoicep:hover {
+    transform: scale(1.1);
 }
 
-.amt{
+.amt {
     color: #7c3e99;
 }
 
-.grn{
+.grn {
     color: #cb3080;
 }
 
-.prl{
+.prl {
     color: #93ead9;
 }
 
-@media(max-width:800px){
-    h1{
+@media(max-width:800px) {
+    h1 {
         font-size: 2.1rem;
     }
 
-    .characters{
+    .characters {
         font-size: 2rem;
         width: 23%;
         gap: 0.8em;
-    
+
     }
 
-    p{
+    p {
         -webkit-text-stroke: 1.3px black;
     }
 
 }
 
-@media(max-width:500px){
-    h1{
+@media(max-width:500px) {
+    h1 {
         font-size: 2rem;
     }
 
-    .containerchoice{
+    .containerchoice {
         padding: 1.5em;
     }
 
-    .characters{
+    .characters {
         font-size: 2rem;
         width: 35%;
         gap: 0.8em;
-    
+
     }
-    
-    .containercharacters{
+
+    .containercharacters {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        gap:3em
-    }    
+        gap: 3em
+    }
 }

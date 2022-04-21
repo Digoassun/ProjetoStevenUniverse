@@ -1,9 +1,10 @@
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 button {
     border: none;
 }
@@ -13,18 +14,23 @@ button:focus {
     outline: none;
 }
 
+@font-face {
+    font-family: 'Starborn';
+    src: url(./font/Starborn.ttf);
+}
+
 /* PAGINA */
 
-body{
-    background-image: url(./imgs/Bg_index.png) ;
-    background-position:center;
+body {
+    background-image: url(./imgs/Bg_index.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,22 +38,22 @@ main{
     font-family: 'Londrina Solid', cursive;
 }
 
-header{
+header {
     -webkit-text-stroke: 0.1px #f93c15;
-    font-family: 'Fredoka One', cursive;
-    width:100%;
+    font-family: 'Starborn', cursive;
+    width: 100%;
     color: #ffd232;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5rem;
 }
 
-    
-.imglogo{
-    width: 20em ;
+
+.imglogo {
+    width: 20em;
     margin: 5em 0 5em 0;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -55,12 +61,12 @@ header{
     width: 70%;
 }
 
-.lang1{
+.lang1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color:rgb(10, 58, 160);
+    color: rgb(10, 58, 160);
     border: solid black 1px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.700);
@@ -72,12 +78,12 @@ header{
     gap: 0.3em;
 }
 
-.lang2{
+.lang2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color:rgb(10, 58, 160);
+    color: rgb(10, 58, 160);
     border: solid black 1px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.700);
@@ -88,154 +94,157 @@ header{
     gap: 0.3em;
 }
 
-button{
+button {
     background-color: transparent;
     cursor: pointer;
     width: 5em;
     transition: all 0.3s;
 }
 
-button:hover{
+button:hover {
     transform: scale(1.1);
 }
 
-.flag{
+.flag {
     width: 5em;
 }
 
-h2, h3{
+h2,
+h3 {
     color: rgb(10, 58, 160);
     font-weight: 900;
-    }
+}
 
-.pt{
+.pt {
     color: green;
 }
 
-.eng{
-    color:red;
+.eng {
+    color: red;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap:2em;
+    gap: 2em;
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;
+    height: 3em;
     background-color: rgba(255, 255, 255, 0.200);
     border: solid 0.5px black;
-    height: 3em;
 }
 
-.link{
+.link {
     width: 2em;
 }
-@media(max-width:1500px){
-    h1{
-        font-size:4rem;
+
+@media(max-width:1500px) {
+    h1 {
+        font-size: 4rem;
     }
 
-    .imglogo{
+    .imglogo {
         margin: 5em 0 5em 0;
     }
+
 }
 
-@media(max-width:1400px){
-    h1{
-        font-size: 3.5;
+@media(max-width:1400px) {
+    h1 {
+        font-size: 3.5rem;
     }
-    
-    .imglogo{
-        width: 17em ;
-        margin: 4em 0 4em 0;
+
+    .imglogo {
+        width: 17em;
+        margin: 3.5em 0 3.5em 0;
     }
-    .lang1, .lang2{
-        font-size:1rem;
+
+    .lang1,
+    .lang2 {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
     }
 }
 
 
-@media(max-width:1100px){
-    .container{
+@media(max-width:1100px) {
+    .container {
         width: 80%;
     }
-   
-    .lang1{
-        font-size: 1.2rem;
+
+    .lang1 {
+        font-size: 1rem;
     }
 
-    .lang2{
-        font-size: 1.2rem;
+    .lang2 {
+        font-size: 1rem;
     }
 }
 
-@media(max-width:700px){
-    h1{
-        font-size:2.9rem;
+@media(max-width:700px) {
+    h1 {
+        font-size: 2.9rem;
     }
 
-    .imglogo{
+    .imglogo {
         width: 14em;
     }
 
-    .container{
-        flex-direction: row;    
-        width: 95%;            
+    .container {
+        flex-direction: row;
+        width: 95%;
     }
 
-    .lang1{
-        font-size: 1rem;
+    .lang1 {
         margin-right: 1em;
     }
 
-    .lang2{
-        font-size: 1rem;
-    }
-
-    button{
+    button {
         width: 4.5em;
     }
 
-    .flag{
+    .flag {
         width: 4.5em;
     }
 }
 
 
-@media(max-width:500px){
-    h1{
-        font-size:2rem;
+@media(max-width:500px) {
+    h1 {
+        font-size: 2rem;
     }
-    
-    .imglogo{
-        margin:3em 0 3em 0;
+
+    .imglogo {
+        margin: 3em 0 3em 0;
         width: 15em;
     }
 
-    .container{
-        flex-direction: row;    
-        width: 95%;            
+    .container {
+        flex-direction: row;
+        width: 95%;
     }
 
-    .lang1{
+    .lang1 {
         font-size: 0.9rem;
         margin-right: 1em;
     }
 
-    .lang2{
+    .lang2 {
         font-size: 0.9rem;
     }
 
-    button{
+    button {
         width: 4em;
     }
 
-    .flag{
+    .flag {
         width: 4em;
     }
 }

@@ -97,26 +97,26 @@ button:hover {
     color: black;
 }
 
-@media(max-width:1400px){
-    h1{
-        font-size:1.9rem;
+@media(max-width:1400px) {
+    h1 {
+        font-size: 1.9rem;
     }
 
-    main{
+    main {
         padding: 2.2em;
         gap: 2.2em;
     }
 
-    h2{
+    h2 {
         font-size: 1.3rem;
     }
 
-    .options{
+    .options {
         font-size: 1.3rem;
     }
 
-    img{
-        width:17%;
+    img {
+        width: 17%;
     }
 
     button {
@@ -186,7 +186,7 @@ button:hover {
         width: 30%;
     }
 
-    p{
+    p {
         text-align: center;
     }
 }

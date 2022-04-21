@@ -38,12 +38,12 @@ main {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background: rgb(255, 255, 255,0.7);
+    background: rgb(255, 255, 255, 0.7);
     padding: 2.5em;
     gap: 2.5em;
     font-family: 'Londrina Solid', cursive;
     color: #e10162;
-    
+
 }
 
 h1 {
@@ -98,26 +98,26 @@ button:hover {
     color: black;
 }
 
-@media(max-width:1400px){
-    h1{
-        font-size:1.9rem;
+@media(max-width:1400px) {
+    h1 {
+        font-size: 1.9rem;
     }
 
-    main{
+    main {
         padding: 2.2em;
         gap: 2.2em;
     }
 
-    h2{
+    h2 {
         font-size: 1.3rem;
     }
 
-    .options{
+    .options {
         font-size: 1.3rem;
     }
 
-    img{
-        width:17%;
+    img {
+        width: 17%;
     }
 
     button {

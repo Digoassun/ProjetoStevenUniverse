@@ -4,7 +4,7 @@ function fase2() {
         var option = (prompt("Type option by the letter").toLowerCase());
 
         if (option == 'a') {
-            alert('Amethyst grabs her whip, and run to toward the image!');
+            alert('Amethyst grabs her whip, and runs toward the image!');
             location.assign("../fase-2/fase-2.html")
             break;
         } else if (option == 'b' || option == 'c') {
@@ -28,7 +28,7 @@ function fase3() {
         var option = (prompt("Type option by the letter").toLowerCase());
 
         if (option == 'b') {
-            alert('Amethyst manages to gather strength to deal with the mirage!');
+            alert('Amethyst manages to gather the strength to face the mirage!');
             location.assign("../fase-3/fase-3.html")
             break;
         } else if (option == 'a' || option == 'c') {
@@ -51,7 +51,7 @@ function fim() {
         var option = (prompt("Type option by the letter").toLowerCase());
 
         if (option == 'a') {
-            alert('Believing in Steven, Amethyst is able to deal with her insecurity, resulting in the mirage disappearing!');
+            alert('Believing in Steven, Amethyst is able to deal with her insecurity, resulting in the mirage vanishing!');
             location.assign("../../victory-en.html")
             break;
         } else if (option == 'b' || option == 'c') {

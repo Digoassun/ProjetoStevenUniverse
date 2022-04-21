@@ -8,12 +8,12 @@ function fase2() {
             location.assign("../fase-2/fase-2.html")
             break;
         } else if (option == 'b' || option == 'c') {
-            if(contador>=1){
+            if (contador >= 1) {
                 location.assign("../../defeat-pt.html")
                 break;
-            }else{
-            alert('Opção errada!');
-            contador++;
+            } else {
+                alert('Opção errada!');
+                contador++;
             }
 
         } else {
@@ -32,12 +32,12 @@ function fase3() {
             location.assign("../fase-3/fase-3.html")
             break;
         } else if (option == 'a' || option == 'b') {
-            if(contador>=1){
+            if (contador >= 1) {
                 location.assign("../../defeat-pt.html")
                 break;
-            }else{
-            alert('Opção errada!');
-            contador++;
+            } else {
+                alert('Opção errada!');
+                contador++;
             }
 
         } else {
@@ -56,12 +56,12 @@ function fim() {
             location.assign("../../victory-pt.html")
             break;
         } else if (option == 'a' || option == 'c') {
-            if(contador>=1){
+            if (contador >= 1) {
                 location.assign("../../defeat-pt.html")
                 break;
-            }else{
-            alert('Opção errada!');
-            contador++;
+            } else {
+                alert('Opção errada!');
+                contador++;
             }
 
         } else {
