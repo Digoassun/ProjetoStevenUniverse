@@ -11,7 +11,7 @@ Membros da squad:<br>
 O tema escolhido pela minha squad foi: <strong>DESENHOS</strong><br>
 O tema escolhido por mim foi: <strong>Steven Universo</strong><br>
 O jogo possui a opção de jogabilidade em duas línguas diferentes. <strong>Inglês</strong> ou <strong>Português</strong>
-...................................................................................................................................................................................................................................................................................................<br>
+.................................................................................................................................................................................................................................<br>
 <strong>End project of the 1st module of the RESILIA education course.</strong><br>
 The project aims to build a text-based game using prompt to retain user data.<br>
 Members of my squad:<br>
