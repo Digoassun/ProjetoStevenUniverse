@@ -1,4 +1,4 @@
-# Steven Universe Project
+# ProjetoStevenUniverse
 <strong>Projeto de fim do 1º módulo do curso da RESILIA educação.</strong><br>
 O projeto tem como objetivo a construção de um jogo baseado em texto com utilização de prompt para retenção de dados do usuário.<br>
 Membros da squad:<br>
